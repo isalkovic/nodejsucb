@@ -6,7 +6,7 @@ metadata:
   namespace: ivosalkovic-hr
 spec:
   applicationImage: dev.local/ivo-nodejs
-  pullSecret: containerregistrysecret
+  pullSecret: regcred
   createKnativeService: false
   expose: true
   livenessProbe:
